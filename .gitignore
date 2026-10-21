@@ -1,0 +1,47 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Content/Developers/
+
+# Plugins
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/Developer/RiderLink/
+
+# Generated project files
+*.sln
+*.slnx
+*.vcxproj*
+*.xcodeproj
+*.xcworkspace
+compile_commands.json
+
+# Rider
+.idea/
+*.sln.DotSettings.user
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build output
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
